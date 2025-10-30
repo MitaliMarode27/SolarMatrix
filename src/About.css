@@ -1,0 +1,119 @@
+.about-wrapper {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  padding-top: 60px;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+/* Fade + Slide Animation */
+.fade-slide {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeSlideUp 1.2s ease forwards;
+}
+
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 200%;
+  }
+}
+
+/* Hover Effects */
+.zoom-hover {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.zoom-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hover-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.hover-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.value-card {
+  width: 350px;
+  height: 220px;
+  border-radius: 15px;
+  transition: all 0.4s ease;
+}
+.value-card:hover {
+  transform: scale(1.05);
+  background: linear-gradient(120deg, #a8edea, #fed6e3);
+}
+
+/* Section Backgrounds */
+.hero-section {
+  background: linear-gradient(135deg, #646463, #a1a1a0);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5rem;
+  padding: 60px 20px;
+}
+
+.story-section {
+  background: #f8f9fa;
+  color: #333;
+  padding: 60px 20px;
+}
+
+.mission-section {
+  background: linear-gradient(135deg, #2c5364, #0f2027);
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.vision-section {
+  background: linear-gradient(135deg, #646463, #a1a1a0);
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.team-section {
+  background: #f8f9fa;
+  color: #333;
+  padding: 60px 20px;
+}
+
+.choose-section {
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.values-section {
+  background: #f8f9fa;
+  color: #333;
+  padding: 60px 20px;
+}
+
+.footer {
+  background: linear-gradient(135deg, #2c5364, #0f2027);
+  color: white;
+}
