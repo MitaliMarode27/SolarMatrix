@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./home.css"; // 👈 Add this CSS file for animations
 import commercial from "./projectimages/istockphoto-2234508993-612x612-removebg-preview.png";
 import residential from "./projectimages/residential-removebg-preview.png";
-import maintainance from "./projectimages/maintenance-removebg-preview.png";
+import maintainance from "./projectimages/maintainImg-Photoroom.png";
 import consulation from "./projectimages/consulatation-removebg-preview.png";
 import about from "./projectimages/aboutHome-removebg-preview.png";
 import { NavLink } from "react-router-dom";
